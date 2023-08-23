@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to pyraylib’s documentation! &mdash; pyraylib 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=e031e9a9"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Getting Started" href="quickstart.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            pyraylib
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">Reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">pyraylib</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to pyraylib’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-pyraylib-s-documentation">
+<h1>Welcome to pyraylib’s documentation!<a class="headerlink" href="#welcome-to-pyraylib-s-documentation" title="Permalink to this heading"></a></h1>
+<p><strong>pyraylib</strong> is A python binding for the great C library <a class="reference external" href="https://github.com/raysan5/raylib/">raylib</a>. The library provides object-oriented wrappers around raylib’s struct interfaces.</p>
+<p>Check out our <a class="reference internal" href="quickstart.html"><span class="doc">Getting Started</span></a> page to get started, then see our <a class="reference internal" href="reference.html"><span class="doc">Reference</span></a> for a detailed description of the API.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project is under active development.</p>
+</div>
+<section id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#usage">Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.AudioDevice"><code class="docutils literal notranslate"><span class="pre">AudioDevice</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioDevice.close"><code class="docutils literal notranslate"><span class="pre">AudioDevice.close()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioDevice.init"><code class="docutils literal notranslate"><span class="pre">AudioDevice.init()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioDevice.is_ready"><code class="docutils literal notranslate"><span class="pre">AudioDevice.is_ready()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioDevice.set_volume"><code class="docutils literal notranslate"><span class="pre">AudioDevice.set_volume()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.AudioStream"><code class="docutils literal notranslate"><span class="pre">AudioStream</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.buffer"><code class="docutils literal notranslate"><span class="pre">AudioStream.buffer</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.channels"><code class="docutils literal notranslate"><span class="pre">AudioStream.channels</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.close"><code class="docutils literal notranslate"><span class="pre">AudioStream.close()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.init_audio_stream"><code class="docutils literal notranslate"><span class="pre">AudioStream.init_audio_stream()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.is_playing"><code class="docutils literal notranslate"><span class="pre">AudioStream.is_playing()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.is_processed"><code class="docutils literal notranslate"><span class="pre">AudioStream.is_processed()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.pause"><code class="docutils literal notranslate"><span class="pre">AudioStream.pause()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.play"><code class="docutils literal notranslate"><span class="pre">AudioStream.play()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.resume"><code class="docutils literal notranslate"><span class="pre">AudioStream.resume()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.sampleRate"><code class="docutils literal notranslate"><span class="pre">AudioStream.sampleRate</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.sampleSize"><code class="docutils literal notranslate"><span class="pre">AudioStream.sampleSize</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.set_buffer_size"><code class="docutils literal notranslate"><span class="pre">AudioStream.set_buffer_size()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.set_pitch"><code class="docutils literal notranslate"><span class="pre">AudioStream.set_pitch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.set_volume"><code class="docutils literal notranslate"><span class="pre">AudioStream.set_volume()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.AudioStream.stop"><code class="docutils literal notranslate"><span class="pre">AudioStream.stop()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.BlendMode"><code class="docutils literal notranslate"><span class="pre">BlendMode</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BlendMode.ADDITIVE"><code class="docutils literal notranslate"><span class="pre">BlendMode.ADDITIVE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BlendMode.ADD_COLORS"><code class="docutils literal notranslate"><span class="pre">BlendMode.ADD_COLORS</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BlendMode.ALPHA"><code class="docutils literal notranslate"><span class="pre">BlendMode.ALPHA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BlendMode.CUSTOM"><code class="docutils literal notranslate"><span class="pre">BlendMode.CUSTOM</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BlendMode.MULTIPLIED"><code class="docutils literal notranslate"><span class="pre">BlendMode.MULTIPLIED</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BlendMode.SUBTRACT_COLORS"><code class="docutils literal notranslate"><span class="pre">BlendMode.SUBTRACT_COLORS</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.BoneInfo"><code class="docutils literal notranslate"><span class="pre">BoneInfo</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.BoneInfoPtr"><code class="docutils literal notranslate"><span class="pre">BoneInfoPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.BoundingBox"><code class="docutils literal notranslate"><span class="pre">BoundingBox</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BoundingBox.check_collision"><code class="docutils literal notranslate"><span class="pre">BoundingBox.check_collision()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BoundingBox.check_collision_ray"><code class="docutils literal notranslate"><span class="pre">BoundingBox.check_collision_ray()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BoundingBox.check_collision_sphere"><code class="docutils literal notranslate"><span class="pre">BoundingBox.check_collision_sphere()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BoundingBox.draw"><code class="docutils literal notranslate"><span class="pre">BoundingBox.draw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BoundingBox.max"><code class="docutils literal notranslate"><span class="pre">BoundingBox.max</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.BoundingBox.min"><code class="docutils literal notranslate"><span class="pre">BoundingBox.min</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Camera"><code class="docutils literal notranslate"><span class="pre">Camera</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Camera2D"><code class="docutils literal notranslate"><span class="pre">Camera2D</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera2D.begin_mode"><code class="docutils literal notranslate"><span class="pre">Camera2D.begin_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera2D.end_mode"><code class="docutils literal notranslate"><span class="pre">Camera2D.end_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera2D.get_matrix"><code class="docutils literal notranslate"><span class="pre">Camera2D.get_matrix()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera2D.get_screen_to_world"><code class="docutils literal notranslate"><span class="pre">Camera2D.get_screen_to_world()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera2D.get_world_to_screen"><code class="docutils literal notranslate"><span class="pre">Camera2D.get_world_to_screen()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Camera3D"><code class="docutils literal notranslate"><span class="pre">Camera3D</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.begin_mode"><code class="docutils literal notranslate"><span class="pre">Camera3D.begin_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.draw_billboard"><code class="docutils literal notranslate"><span class="pre">Camera3D.draw_billboard()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.draw_billboard_rec"><code class="docutils literal notranslate"><span class="pre">Camera3D.draw_billboard_rec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.end_mode"><code class="docutils literal notranslate"><span class="pre">Camera3D.end_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.get_matrix"><code class="docutils literal notranslate"><span class="pre">Camera3D.get_matrix()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.get_mouse_ray"><code class="docutils literal notranslate"><span class="pre">Camera3D.get_mouse_ray()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.get_world_to_screen"><code class="docutils literal notranslate"><span class="pre">Camera3D.get_world_to_screen()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.set_alt_controll"><code class="docutils literal notranslate"><span class="pre">Camera3D.set_alt_controll()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.set_camera_pan_control"><code class="docutils literal notranslate"><span class="pre">Camera3D.set_camera_pan_control()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.set_mode"><code class="docutils literal notranslate"><span class="pre">Camera3D.set_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.set_move_controll"><code class="docutils literal notranslate"><span class="pre">Camera3D.set_move_controll()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.set_smooth_zoom_controll"><code class="docutils literal notranslate"><span class="pre">Camera3D.set_smooth_zoom_controll()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Camera3D.update"><code class="docutils literal notranslate"><span class="pre">Camera3D.update()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.CameraMode"><code class="docutils literal notranslate"><span class="pre">CameraMode</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CameraMode.CUSTOM"><code class="docutils literal notranslate"><span class="pre">CameraMode.CUSTOM</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CameraMode.FIRST_PERSON"><code class="docutils literal notranslate"><span class="pre">CameraMode.FIRST_PERSON</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CameraMode.FREE"><code class="docutils literal notranslate"><span class="pre">CameraMode.FREE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CameraMode.ORBITAL"><code class="docutils literal notranslate"><span class="pre">CameraMode.ORBITAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CameraMode.THIRD_PERSON"><code class="docutils literal notranslate"><span class="pre">CameraMode.THIRD_PERSON</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.CameraProjection"><code class="docutils literal notranslate"><span class="pre">CameraProjection</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CameraProjection.ORTHOGRAPHIC"><code class="docutils literal notranslate"><span class="pre">CameraProjection.ORTHOGRAPHIC</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CameraProjection.PERSPECTIVE"><code class="docutils literal notranslate"><span class="pre">CameraProjection.PERSPECTIVE</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.CharInfo"><code class="docutils literal notranslate"><span class="pre">CharInfo</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.CharInfoPtr"><code class="docutils literal notranslate"><span class="pre">CharInfoPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.CharPtrPtr"><code class="docutils literal notranslate"><span class="pre">CharPtrPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Circle"><code class="docutils literal notranslate"><span class="pre">Circle</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.bottom"><code class="docutils literal notranslate"><span class="pre">Circle.bottom</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.center"><code class="docutils literal notranslate"><span class="pre">Circle.center</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.collide_with"><code class="docutils literal notranslate"><span class="pre">Circle.collide_with()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.color"><code class="docutils literal notranslate"><span class="pre">Circle.color</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.draw"><code class="docutils literal notranslate"><span class="pre">Circle.draw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.draw_gradient"><code class="docutils literal notranslate"><span class="pre">Circle.draw_gradient()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.draw_sector"><code class="docutils literal notranslate"><span class="pre">Circle.draw_sector()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.left"><code class="docutils literal notranslate"><span class="pre">Circle.left</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.move"><code class="docutils literal notranslate"><span class="pre">Circle.move</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.radius"><code class="docutils literal notranslate"><span class="pre">Circle.radius</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.right"><code class="docutils literal notranslate"><span class="pre">Circle.right</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.top"><code class="docutils literal notranslate"><span class="pre">Circle.top</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.x"><code class="docutils literal notranslate"><span class="pre">Circle.x</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Circle.y"><code class="docutils literal notranslate"><span class="pre">Circle.y</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Color"><code class="docutils literal notranslate"><span class="pre">Color</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.a"><code class="docutils literal notranslate"><span class="pre">Color.a</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.alpha"><code class="docutils literal notranslate"><span class="pre">Color.alpha()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.b"><code class="docutils literal notranslate"><span class="pre">Color.b</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.fade"><code class="docutils literal notranslate"><span class="pre">Color.fade()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.g"><code class="docutils literal notranslate"><span class="pre">Color.g</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.hls"><code class="docutils literal notranslate"><span class="pre">Color.hls</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.hsv"><code class="docutils literal notranslate"><span class="pre">Color.hsv</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.normalized"><code class="docutils literal notranslate"><span class="pre">Color.normalized</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.r"><code class="docutils literal notranslate"><span class="pre">Color.r</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.to_int"><code class="docutils literal notranslate"><span class="pre">Color.to_int()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Color.yiq"><code class="docutils literal notranslate"><span class="pre">Color.yiq</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.ColorPtr"><code class="docutils literal notranslate"><span class="pre">ColorPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.CubemapLayout"><code class="docutils literal notranslate"><span class="pre">CubemapLayout</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CubemapLayout.AUTO_DETECT"><code class="docutils literal notranslate"><span class="pre">CubemapLayout.AUTO_DETECT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CubemapLayout.CROSS_FOUR_BY_THREE"><code class="docutils literal notranslate"><span class="pre">CubemapLayout.CROSS_FOUR_BY_THREE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CubemapLayout.CROSS_THREE_BY_FOUR"><code class="docutils literal notranslate"><span class="pre">CubemapLayout.CROSS_THREE_BY_FOUR</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CubemapLayout.LINE_HORIZONTAL"><code class="docutils literal notranslate"><span class="pre">CubemapLayout.LINE_HORIZONTAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CubemapLayout.LINE_VERTICAL"><code class="docutils literal notranslate"><span class="pre">CubemapLayout.LINE_VERTICAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.CubemapLayout.PANORAMA"><code class="docutils literal notranslate"><span class="pre">CubemapLayout.PANORAMA</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.FloatPtr"><code class="docutils literal notranslate"><span class="pre">FloatPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Font"><code class="docutils literal notranslate"><span class="pre">Font</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.baseSize"><code class="docutils literal notranslate"><span class="pre">Font.baseSize</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.chars"><code class="docutils literal notranslate"><span class="pre">Font.chars</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.charsCount"><code class="docutils literal notranslate"><span class="pre">Font.charsCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.charsPadding"><code class="docutils literal notranslate"><span class="pre">Font.charsPadding</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.get_default"><code class="docutils literal notranslate"><span class="pre">Font.get_default()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.load_from_file"><code class="docutils literal notranslate"><span class="pre">Font.load_from_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.recs"><code class="docutils literal notranslate"><span class="pre">Font.recs</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.texture"><code class="docutils literal notranslate"><span class="pre">Font.texture</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Font.unload"><code class="docutils literal notranslate"><span class="pre">Font.unload()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.FontType"><code class="docutils literal notranslate"><span class="pre">FontType</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.FontType.BITMAP"><code class="docutils literal notranslate"><span class="pre">FontType.BITMAP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.FontType.DEFAULT"><code class="docutils literal notranslate"><span class="pre">FontType.DEFAULT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.FontType.SDF"><code class="docutils literal notranslate"><span class="pre">FontType.SDF</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.GamepadAxis"><code class="docutils literal notranslate"><span class="pre">GamepadAxis</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadAxis.GAMEPAD_AXIS_LEFT_TRIGGER"><code class="docutils literal notranslate"><span class="pre">GamepadAxis.GAMEPAD_AXIS_LEFT_TRIGGER</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadAxis.GAMEPAD_AXIS_LEFT_X"><code class="docutils literal notranslate"><span class="pre">GamepadAxis.GAMEPAD_AXIS_LEFT_X</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadAxis.GAMEPAD_AXIS_LEFT_Y"><code class="docutils literal notranslate"><span class="pre">GamepadAxis.GAMEPAD_AXIS_LEFT_Y</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadAxis.GAMEPAD_AXIS_RIGHT_TRIGGER"><code class="docutils literal notranslate"><span class="pre">GamepadAxis.GAMEPAD_AXIS_RIGHT_TRIGGER</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadAxis.GAMEPAD_AXIS_RIGHT_X"><code class="docutils literal notranslate"><span class="pre">GamepadAxis.GAMEPAD_AXIS_RIGHT_X</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadAxis.GAMEPAD_AXIS_RIGHT_Y"><code class="docutils literal notranslate"><span class="pre">GamepadAxis.GAMEPAD_AXIS_RIGHT_Y</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.GamepadButton"><code class="docutils literal notranslate"><span class="pre">GamepadButton</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_LEFT_FACE_DOWN"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_LEFT_FACE_DOWN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_LEFT_FACE_LEFT"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_LEFT_FACE_LEFT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_LEFT_FACE_RIGHT"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_LEFT_FACE_RIGHT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_LEFT_FACE_UP"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_LEFT_FACE_UP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_LEFT_THUMB"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_LEFT_THUMB</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_LEFT_TRIGGER_1"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_LEFT_TRIGGER_1</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_LEFT_TRIGGER_2"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_LEFT_TRIGGER_2</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_MIDDLE"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_MIDDLE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_MIDDLE_LEFT"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_MIDDLE_LEFT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_MIDDLE_RIGHT"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_MIDDLE_RIGHT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_RIGHT_FACE_DOWN"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_RIGHT_FACE_DOWN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_RIGHT_FACE_LEFT"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_RIGHT_FACE_LEFT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_RIGHT_FACE_RIGHT"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_RIGHT_FACE_RIGHT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_RIGHT_FACE_UP"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_RIGHT_FACE_UP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_RIGHT_THUMB"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_RIGHT_THUMB</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_RIGHT_TRIGGER_1"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_RIGHT_TRIGGER_1</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_RIGHT_TRIGGER_2"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_RIGHT_TRIGGER_2</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.GamepadButton.BUTTON_UNKNOWN"><code class="docutils literal notranslate"><span class="pre">GamepadButton.BUTTON_UNKNOWN</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Gestures"><code class="docutils literal notranslate"><span class="pre">Gestures</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.DOUBLETAP"><code class="docutils literal notranslate"><span class="pre">Gestures.DOUBLETAP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.DRAG"><code class="docutils literal notranslate"><span class="pre">Gestures.DRAG</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.HOLD"><code class="docutils literal notranslate"><span class="pre">Gestures.HOLD</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.NONE"><code class="docutils literal notranslate"><span class="pre">Gestures.NONE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.PINCH_IN"><code class="docutils literal notranslate"><span class="pre">Gestures.PINCH_IN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.PINCH_OUT"><code class="docutils literal notranslate"><span class="pre">Gestures.PINCH_OUT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.SWIPE_DOWN"><code class="docutils literal notranslate"><span class="pre">Gestures.SWIPE_DOWN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.SWIPE_LEFT"><code class="docutils literal notranslate"><span class="pre">Gestures.SWIPE_LEFT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.SWIPE_RIGHT"><code class="docutils literal notranslate"><span class="pre">Gestures.SWIPE_RIGHT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.SWIPE_UP"><code class="docutils literal notranslate"><span class="pre">Gestures.SWIPE_UP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Gestures.TAP"><code class="docutils literal notranslate"><span class="pre">Gestures.TAP</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Image"><code class="docutils literal notranslate"><span class="pre">Image</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.alpha_clear"><code class="docutils literal notranslate"><span class="pre">Image.alpha_clear()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.alpha_crop"><code class="docutils literal notranslate"><span class="pre">Image.alpha_crop()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.alpha_mask"><code class="docutils literal notranslate"><span class="pre">Image.alpha_mask()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.alpha_pre_multiply"><code class="docutils literal notranslate"><span class="pre">Image.alpha_pre_multiply()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.cellular"><code class="docutils literal notranslate"><span class="pre">Image.cellular()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.checked"><code class="docutils literal notranslate"><span class="pre">Image.checked()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.clear_background"><code class="docutils literal notranslate"><span class="pre">Image.clear_background()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.color"><code class="docutils literal notranslate"><span class="pre">Image.color()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.color_brightness"><code class="docutils literal notranslate"><span class="pre">Image.color_brightness()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.color_contrast"><code class="docutils literal notranslate"><span class="pre">Image.color_contrast()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.color_grayscale"><code class="docutils literal notranslate"><span class="pre">Image.color_grayscale()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.color_invert"><code class="docutils literal notranslate"><span class="pre">Image.color_invert()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.color_replace"><code class="docutils literal notranslate"><span class="pre">Image.color_replace()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.color_tint"><code class="docutils literal notranslate"><span class="pre">Image.color_tint()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.convert_to"><code class="docutils literal notranslate"><span class="pre">Image.convert_to()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.copy"><code class="docutils literal notranslate"><span class="pre">Image.copy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.crop"><code class="docutils literal notranslate"><span class="pre">Image.crop()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.cut"><code class="docutils literal notranslate"><span class="pre">Image.cut()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.dither"><code class="docutils literal notranslate"><span class="pre">Image.dither()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.draw_circle"><code class="docutils literal notranslate"><span class="pre">Image.draw_circle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.draw_line"><code class="docutils literal notranslate"><span class="pre">Image.draw_line()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.draw_pixel"><code class="docutils literal notranslate"><span class="pre">Image.draw_pixel()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.draw_rect"><code class="docutils literal notranslate"><span class="pre">Image.draw_rect()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.draw_rect_lines"><code class="docutils literal notranslate"><span class="pre">Image.draw_rect_lines()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.draw_rectangle"><code class="docutils literal notranslate"><span class="pre">Image.draw_rectangle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.draw_text"><code class="docutils literal notranslate"><span class="pre">Image.draw_text()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.draw_text_ex"><code class="docutils literal notranslate"><span class="pre">Image.draw_text_ex()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.export"><code class="docutils literal notranslate"><span class="pre">Image.export()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.export_as_code"><code class="docutils literal notranslate"><span class="pre">Image.export_as_code()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.flip_horizontally"><code class="docutils literal notranslate"><span class="pre">Image.flip_horizontally()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.flip_vertically"><code class="docutils literal notranslate"><span class="pre">Image.flip_vertically()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.format"><code class="docutils literal notranslate"><span class="pre">Image.format</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.gen_mipmaps"><code class="docutils literal notranslate"><span class="pre">Image.gen_mipmaps()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.get_alpha_border"><code class="docutils literal notranslate"><span class="pre">Image.get_alpha_border()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.get_screen_data"><code class="docutils literal notranslate"><span class="pre">Image.get_screen_data()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.get_texture"><code class="docutils literal notranslate"><span class="pre">Image.get_texture()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.gradient_h"><code class="docutils literal notranslate"><span class="pre">Image.gradient_h()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.gradient_radial"><code class="docutils literal notranslate"><span class="pre">Image.gradient_radial()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.gradient_v"><code class="docutils literal notranslate"><span class="pre">Image.gradient_v()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.height"><code class="docutils literal notranslate"><span class="pre">Image.height</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.load_colors"><code class="docutils literal notranslate"><span class="pre">Image.load_colors()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.load_from_texture"><code class="docutils literal notranslate"><span class="pre">Image.load_from_texture()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.load_image"><code class="docutils literal notranslate"><span class="pre">Image.load_image()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.load_image_anim"><code class="docutils literal notranslate"><span class="pre">Image.load_image_anim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.load_image_raw"><code class="docutils literal notranslate"><span class="pre">Image.load_image_raw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.perlin_noise"><code class="docutils literal notranslate"><span class="pre">Image.perlin_noise()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.resize"><code class="docutils literal notranslate"><span class="pre">Image.resize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.resize_canvas"><code class="docutils literal notranslate"><span class="pre">Image.resize_canvas()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.resize_nn"><code class="docutils literal notranslate"><span class="pre">Image.resize_nn()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.rotate_ccw"><code class="docutils literal notranslate"><span class="pre">Image.rotate_ccw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.rotate_cw"><code class="docutils literal notranslate"><span class="pre">Image.rotate_cw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.size"><code class="docutils literal notranslate"><span class="pre">Image.size</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.text"><code class="docutils literal notranslate"><span class="pre">Image.text()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.text_ex"><code class="docutils literal notranslate"><span class="pre">Image.text_ex()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.to_pot"><code class="docutils literal notranslate"><span class="pre">Image.to_pot()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.unload"><code class="docutils literal notranslate"><span class="pre">Image.unload()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.unload_colors"><code class="docutils literal notranslate"><span class="pre">Image.unload_colors()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.white_noise"><code class="docutils literal notranslate"><span class="pre">Image.white_noise()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Image.width"><code class="docutils literal notranslate"><span class="pre">Image.width</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.ImagePtr"><code class="docutils literal notranslate"><span class="pre">ImagePtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.IntPtr"><code class="docutils literal notranslate"><span class="pre">IntPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Keyboard"><code class="docutils literal notranslate"><span class="pre">Keyboard</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.A"><code class="docutils literal notranslate"><span class="pre">Keyboard.A</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.APOSTROPHE"><code class="docutils literal notranslate"><span class="pre">Keyboard.APOSTROPHE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.B"><code class="docutils literal notranslate"><span class="pre">Keyboard.B</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.BACK"><code class="docutils literal notranslate"><span class="pre">Keyboard.BACK</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.BACKSLASH"><code class="docutils literal notranslate"><span class="pre">Keyboard.BACKSLASH</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.BACKSPACE"><code class="docutils literal notranslate"><span class="pre">Keyboard.BACKSPACE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.C"><code class="docutils literal notranslate"><span class="pre">Keyboard.C</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.CAPS_LOCK"><code class="docutils literal notranslate"><span class="pre">Keyboard.CAPS_LOCK</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.COMMA"><code class="docutils literal notranslate"><span class="pre">Keyboard.COMMA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.D"><code class="docutils literal notranslate"><span class="pre">Keyboard.D</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.DELETE"><code class="docutils literal notranslate"><span class="pre">Keyboard.DELETE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.DOWN"><code class="docutils literal notranslate"><span class="pre">Keyboard.DOWN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.E"><code class="docutils literal notranslate"><span class="pre">Keyboard.E</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.EIGHT"><code class="docutils literal notranslate"><span class="pre">Keyboard.EIGHT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.END"><code class="docutils literal notranslate"><span class="pre">Keyboard.END</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.ENTER"><code class="docutils literal notranslate"><span class="pre">Keyboard.ENTER</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.EQUAL"><code class="docutils literal notranslate"><span class="pre">Keyboard.EQUAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.ESCAPE"><code class="docutils literal notranslate"><span class="pre">Keyboard.ESCAPE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F"><code class="docutils literal notranslate"><span class="pre">Keyboard.F</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F1"><code class="docutils literal notranslate"><span class="pre">Keyboard.F1</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F10"><code class="docutils literal notranslate"><span class="pre">Keyboard.F10</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F11"><code class="docutils literal notranslate"><span class="pre">Keyboard.F11</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F12"><code class="docutils literal notranslate"><span class="pre">Keyboard.F12</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F2"><code class="docutils literal notranslate"><span class="pre">Keyboard.F2</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F3"><code class="docutils literal notranslate"><span class="pre">Keyboard.F3</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F4"><code class="docutils literal notranslate"><span class="pre">Keyboard.F4</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F5"><code class="docutils literal notranslate"><span class="pre">Keyboard.F5</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F6"><code class="docutils literal notranslate"><span class="pre">Keyboard.F6</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F7"><code class="docutils literal notranslate"><span class="pre">Keyboard.F7</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F8"><code class="docutils literal notranslate"><span class="pre">Keyboard.F8</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.F9"><code class="docutils literal notranslate"><span class="pre">Keyboard.F9</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.FIVE"><code class="docutils literal notranslate"><span class="pre">Keyboard.FIVE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.FOUR"><code class="docutils literal notranslate"><span class="pre">Keyboard.FOUR</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.G"><code class="docutils literal notranslate"><span class="pre">Keyboard.G</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.GRAVE"><code class="docutils literal notranslate"><span class="pre">Keyboard.GRAVE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.H"><code class="docutils literal notranslate"><span class="pre">Keyboard.H</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.HOME"><code class="docutils literal notranslate"><span class="pre">Keyboard.HOME</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.I"><code class="docutils literal notranslate"><span class="pre">Keyboard.I</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.INSERT"><code class="docutils literal notranslate"><span class="pre">Keyboard.INSERT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.J"><code class="docutils literal notranslate"><span class="pre">Keyboard.J</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.K"><code class="docutils literal notranslate"><span class="pre">Keyboard.K</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KB_MENU"><code class="docutils literal notranslate"><span class="pre">Keyboard.KB_MENU</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_0"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_0</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_1"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_1</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_2"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_2</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_3"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_3</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_4"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_4</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_5"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_5</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_6"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_6</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_7"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_7</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_8"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_8</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_9"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_9</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_ADD"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_ADD</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_DECIMAL"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_DECIMAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_DIVIDE"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_DIVIDE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_ENTER"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_ENTER</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_EQUAL"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_EQUAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_MULTIPLY"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_MULTIPLY</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.KP_SUBTRACT"><code class="docutils literal notranslate"><span class="pre">Keyboard.KP_SUBTRACT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.L"><code class="docutils literal notranslate"><span class="pre">Keyboard.L</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.LEFT"><code class="docutils literal notranslate"><span class="pre">Keyboard.LEFT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.LEFT_ALT"><code class="docutils literal notranslate"><span class="pre">Keyboard.LEFT_ALT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.LEFT_BRACKET"><code class="docutils literal notranslate"><span class="pre">Keyboard.LEFT_BRACKET</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.LEFT_CONTROL"><code class="docutils literal notranslate"><span class="pre">Keyboard.LEFT_CONTROL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.LEFT_SHIFT"><code class="docutils literal notranslate"><span class="pre">Keyboard.LEFT_SHIFT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.LEFT_SUPER"><code class="docutils literal notranslate"><span class="pre">Keyboard.LEFT_SUPER</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.M"><code class="docutils literal notranslate"><span class="pre">Keyboard.M</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.MENU"><code class="docutils literal notranslate"><span class="pre">Keyboard.MENU</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.MINUS"><code class="docutils literal notranslate"><span class="pre">Keyboard.MINUS</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.N"><code class="docutils literal notranslate"><span class="pre">Keyboard.N</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.NINE"><code class="docutils literal notranslate"><span class="pre">Keyboard.NINE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.NULL"><code class="docutils literal notranslate"><span class="pre">Keyboard.NULL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.NUM_LOCK"><code class="docutils literal notranslate"><span class="pre">Keyboard.NUM_LOCK</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.O"><code class="docutils literal notranslate"><span class="pre">Keyboard.O</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.ONE"><code class="docutils literal notranslate"><span class="pre">Keyboard.ONE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.P"><code class="docutils literal notranslate"><span class="pre">Keyboard.P</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.PAGE_DOWN"><code class="docutils literal notranslate"><span class="pre">Keyboard.PAGE_DOWN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.PAGE_UP"><code class="docutils literal notranslate"><span class="pre">Keyboard.PAGE_UP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.PAUSE"><code class="docutils literal notranslate"><span class="pre">Keyboard.PAUSE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.PERIOD"><code class="docutils literal notranslate"><span class="pre">Keyboard.PERIOD</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.PRINT_SCREEN"><code class="docutils literal notranslate"><span class="pre">Keyboard.PRINT_SCREEN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.Q"><code class="docutils literal notranslate"><span class="pre">Keyboard.Q</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.R"><code class="docutils literal notranslate"><span class="pre">Keyboard.R</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.RIGHT"><code class="docutils literal notranslate"><span class="pre">Keyboard.RIGHT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.RIGHT_ALT"><code class="docutils literal notranslate"><span class="pre">Keyboard.RIGHT_ALT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.RIGHT_BRACKET"><code class="docutils literal notranslate"><span class="pre">Keyboard.RIGHT_BRACKET</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.RIGHT_CONTROL"><code class="docutils literal notranslate"><span class="pre">Keyboard.RIGHT_CONTROL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.RIGHT_SHIFT"><code class="docutils literal notranslate"><span class="pre">Keyboard.RIGHT_SHIFT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.RIGHT_SUPER"><code class="docutils literal notranslate"><span class="pre">Keyboard.RIGHT_SUPER</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.S"><code class="docutils literal notranslate"><span class="pre">Keyboard.S</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.SCROLL_LOCK"><code class="docutils literal notranslate"><span class="pre">Keyboard.SCROLL_LOCK</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.SEMICOLON"><code class="docutils literal notranslate"><span class="pre">Keyboard.SEMICOLON</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.SEVEN"><code class="docutils literal notranslate"><span class="pre">Keyboard.SEVEN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.SIX"><code class="docutils literal notranslate"><span class="pre">Keyboard.SIX</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.SLASH"><code class="docutils literal notranslate"><span class="pre">Keyboard.SLASH</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.SPACE"><code class="docutils literal notranslate"><span class="pre">Keyboard.SPACE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.T"><code class="docutils literal notranslate"><span class="pre">Keyboard.T</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.TAB"><code class="docutils literal notranslate"><span class="pre">Keyboard.TAB</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.THREE"><code class="docutils literal notranslate"><span class="pre">Keyboard.THREE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.TWO"><code class="docutils literal notranslate"><span class="pre">Keyboard.TWO</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.U"><code class="docutils literal notranslate"><span class="pre">Keyboard.U</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.UP"><code class="docutils literal notranslate"><span class="pre">Keyboard.UP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.V"><code class="docutils literal notranslate"><span class="pre">Keyboard.V</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.VOLUME_DOWN"><code class="docutils literal notranslate"><span class="pre">Keyboard.VOLUME_DOWN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.VOLUME_UP"><code class="docutils literal notranslate"><span class="pre">Keyboard.VOLUME_UP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.W"><code class="docutils literal notranslate"><span class="pre">Keyboard.W</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.X"><code class="docutils literal notranslate"><span class="pre">Keyboard.X</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.Y"><code class="docutils literal notranslate"><span class="pre">Keyboard.Y</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.Z"><code class="docutils literal notranslate"><span class="pre">Keyboard.Z</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Keyboard.ZERO"><code class="docutils literal notranslate"><span class="pre">Keyboard.ZERO</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Material"><code class="docutils literal notranslate"><span class="pre">Material</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Material.load_default"><code class="docutils literal notranslate"><span class="pre">Material.load_default()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Material.load_materials"><code class="docutils literal notranslate"><span class="pre">Material.load_materials()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Material.maps"><code class="docutils literal notranslate"><span class="pre">Material.maps</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Material.params"><code class="docutils literal notranslate"><span class="pre">Material.params</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Material.set_texture"><code class="docutils literal notranslate"><span class="pre">Material.set_texture()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Material.shader"><code class="docutils literal notranslate"><span class="pre">Material.shader</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Material.unload"><code class="docutils literal notranslate"><span class="pre">Material.unload()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.MaterialMap"><code class="docutils literal notranslate"><span class="pre">MaterialMap</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.ALBEDO"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.ALBEDO</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.BRDG"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.BRDG</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.CUBEMAP"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.CUBEMAP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.EMISSION"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.EMISSION</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.HEIGHT"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.HEIGHT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.IRRADIANCE"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.IRRADIANCE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.METALNESS"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.METALNESS</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.NORMAL"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.NORMAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.OCCLUSION"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.OCCLUSION</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.PREFILTER"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.PREFILTER</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MaterialMapIndex.ROUGHNESS"><code class="docutils literal notranslate"><span class="pre">MaterialMapIndex.ROUGHNESS</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.MaterialMapPtr"><code class="docutils literal notranslate"><span class="pre">MaterialMapPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.MaterialPtr"><code class="docutils literal notranslate"><span class="pre">MaterialPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Matrix"><code class="docutils literal notranslate"><span class="pre">Matrix</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.identity"><code class="docutils literal notranslate"><span class="pre">Matrix.identity()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.invert"><code class="docutils literal notranslate"><span class="pre">Matrix.invert()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m0"><code class="docutils literal notranslate"><span class="pre">Matrix.m0</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m1"><code class="docutils literal notranslate"><span class="pre">Matrix.m1</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m10"><code class="docutils literal notranslate"><span class="pre">Matrix.m10</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m11"><code class="docutils literal notranslate"><span class="pre">Matrix.m11</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m12"><code class="docutils literal notranslate"><span class="pre">Matrix.m12</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m13"><code class="docutils literal notranslate"><span class="pre">Matrix.m13</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m14"><code class="docutils literal notranslate"><span class="pre">Matrix.m14</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m15"><code class="docutils literal notranslate"><span class="pre">Matrix.m15</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m2"><code class="docutils literal notranslate"><span class="pre">Matrix.m2</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m3"><code class="docutils literal notranslate"><span class="pre">Matrix.m3</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m4"><code class="docutils literal notranslate"><span class="pre">Matrix.m4</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m5"><code class="docutils literal notranslate"><span class="pre">Matrix.m5</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m6"><code class="docutils literal notranslate"><span class="pre">Matrix.m6</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m7"><code class="docutils literal notranslate"><span class="pre">Matrix.m7</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m8"><code class="docutils literal notranslate"><span class="pre">Matrix.m8</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.m9"><code class="docutils literal notranslate"><span class="pre">Matrix.m9</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.normalize"><code class="docutils literal notranslate"><span class="pre">Matrix.normalize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.rotate"><code class="docutils literal notranslate"><span class="pre">Matrix.rotate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.rotate_x"><code class="docutils literal notranslate"><span class="pre">Matrix.rotate_x()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.rotate_xyz"><code class="docutils literal notranslate"><span class="pre">Matrix.rotate_xyz()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.rotate_y"><code class="docutils literal notranslate"><span class="pre">Matrix.rotate_y()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.rotate_z"><code class="docutils literal notranslate"><span class="pre">Matrix.rotate_z()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.rotate_zyx"><code class="docutils literal notranslate"><span class="pre">Matrix.rotate_zyx()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.scale"><code class="docutils literal notranslate"><span class="pre">Matrix.scale</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.trace"><code class="docutils literal notranslate"><span class="pre">Matrix.trace()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.translate"><code class="docutils literal notranslate"><span class="pre">Matrix.translate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Matrix.transpose"><code class="docutils literal notranslate"><span class="pre">Matrix.transpose()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Mesh"><code class="docutils literal notranslate"><span class="pre">Mesh</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.animNormals"><code class="docutils literal notranslate"><span class="pre">Mesh.animNormals</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.animVertices"><code class="docutils literal notranslate"><span class="pre">Mesh.animVertices</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.binormals"><code class="docutils literal notranslate"><span class="pre">Mesh.binormals()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.boneIds"><code class="docutils literal notranslate"><span class="pre">Mesh.boneIds</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.boneWeights"><code class="docutils literal notranslate"><span class="pre">Mesh.boneWeights</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.bounding_box"><code class="docutils literal notranslate"><span class="pre">Mesh.bounding_box()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.color"><code class="docutils literal notranslate"><span class="pre">Mesh.color</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.cube"><code class="docutils literal notranslate"><span class="pre">Mesh.cube()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.cubic_map"><code class="docutils literal notranslate"><span class="pre">Mesh.cubic_map()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.cylinder"><code class="docutils literal notranslate"><span class="pre">Mesh.cylinder()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.export"><code class="docutils literal notranslate"><span class="pre">Mesh.export()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.height_map"><code class="docutils literal notranslate"><span class="pre">Mesh.height_map()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.hemi_sphere"><code class="docutils literal notranslate"><span class="pre">Mesh.hemi_sphere()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.indices"><code class="docutils literal notranslate"><span class="pre">Mesh.indices</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.knot"><code class="docutils literal notranslate"><span class="pre">Mesh.knot()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.normals"><code class="docutils literal notranslate"><span class="pre">Mesh.normals</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.plane"><code class="docutils literal notranslate"><span class="pre">Mesh.plane()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.poly"><code class="docutils literal notranslate"><span class="pre">Mesh.poly()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.sphere"><code class="docutils literal notranslate"><span class="pre">Mesh.sphere()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.tangents"><code class="docutils literal notranslate"><span class="pre">Mesh.tangents</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.texcoords"><code class="docutils literal notranslate"><span class="pre">Mesh.texcoords</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.texcoords2"><code class="docutils literal notranslate"><span class="pre">Mesh.texcoords2</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.torus"><code class="docutils literal notranslate"><span class="pre">Mesh.torus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.triangleCount"><code class="docutils literal notranslate"><span class="pre">Mesh.triangleCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.unload"><code class="docutils literal notranslate"><span class="pre">Mesh.unload()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.upload"><code class="docutils literal notranslate"><span class="pre">Mesh.upload()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.vaoId"><code class="docutils literal notranslate"><span class="pre">Mesh.vaoId</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.vboId"><code class="docutils literal notranslate"><span class="pre">Mesh.vboId</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.vertexCount"><code class="docutils literal notranslate"><span class="pre">Mesh.vertexCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Mesh.vertices"><code class="docutils literal notranslate"><span class="pre">Mesh.vertices</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.MeshPtr"><code class="docutils literal notranslate"><span class="pre">MeshPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Model"><code class="docutils literal notranslate"><span class="pre">Model</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.bindPose"><code class="docutils literal notranslate"><span class="pre">Model.bindPose</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.boneCount"><code class="docutils literal notranslate"><span class="pre">Model.boneCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.bones"><code class="docutils literal notranslate"><span class="pre">Model.bones</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.draw"><code class="docutils literal notranslate"><span class="pre">Model.draw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.draw_ex"><code class="docutils literal notranslate"><span class="pre">Model.draw_ex()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.get_collision"><code class="docutils literal notranslate"><span class="pre">Model.get_collision()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.is_valid_model_animation"><code class="docutils literal notranslate"><span class="pre">Model.is_valid_model_animation()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.load_from_file"><code class="docutils literal notranslate"><span class="pre">Model.load_from_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.load_from_mesh"><code class="docutils literal notranslate"><span class="pre">Model.load_from_mesh()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.materialCount"><code class="docutils literal notranslate"><span class="pre">Model.materialCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.materials"><code class="docutils literal notranslate"><span class="pre">Model.materials</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.meshCount"><code class="docutils literal notranslate"><span class="pre">Model.meshCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.meshMaterial"><code class="docutils literal notranslate"><span class="pre">Model.meshMaterial</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.meshes"><code class="docutils literal notranslate"><span class="pre">Model.meshes</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.set_material_texture"><code class="docutils literal notranslate"><span class="pre">Model.set_material_texture()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.set_mesh_material"><code class="docutils literal notranslate"><span class="pre">Model.set_mesh_material()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.transform"><code class="docutils literal notranslate"><span class="pre">Model.transform</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.unload"><code class="docutils literal notranslate"><span class="pre">Model.unload()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.unload_keep_meshes"><code class="docutils literal notranslate"><span class="pre">Model.unload_keep_meshes()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Model.update_animation"><code class="docutils literal notranslate"><span class="pre">Model.update_animation()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation"><code class="docutils literal notranslate"><span class="pre">ModelAnimation</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation.boneCount"><code class="docutils literal notranslate"><span class="pre">ModelAnimation.boneCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation.bones"><code class="docutils literal notranslate"><span class="pre">ModelAnimation.bones</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation.frameCount"><code class="docutils literal notranslate"><span class="pre">ModelAnimation.frameCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation.framePoses"><code class="docutils literal notranslate"><span class="pre">ModelAnimation.framePoses</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation.is_valid"><code class="docutils literal notranslate"><span class="pre">ModelAnimation.is_valid()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation.load"><code class="docutils literal notranslate"><span class="pre">ModelAnimation.load()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation.unload"><code class="docutils literal notranslate"><span class="pre">ModelAnimation.unload()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ModelAnimation.unload_model_anmations"><code class="docutils literal notranslate"><span class="pre">ModelAnimation.unload_model_anmations()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.ModelAnimationPtr"><code class="docutils literal notranslate"><span class="pre">ModelAnimationPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.ModelPtr"><code class="docutils literal notranslate"><span class="pre">ModelPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.MouseButton"><code class="docutils literal notranslate"><span class="pre">MouseButton</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseButton.LEFT_BUTTON"><code class="docutils literal notranslate"><span class="pre">MouseButton.LEFT_BUTTON</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseButton.MIDDLE_BUTTON"><code class="docutils literal notranslate"><span class="pre">MouseButton.MIDDLE_BUTTON</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseButton.RIGHT_BUTTON"><code class="docutils literal notranslate"><span class="pre">MouseButton.RIGHT_BUTTON</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.MouseCursor"><code class="docutils literal notranslate"><span class="pre">MouseCursor</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_ARROW"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_ARROW</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_CROSSHAIR"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_CROSSHAIR</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_DEFAULT"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_DEFAULT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_IBEAM"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_IBEAM</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_NOT_ALLOWED"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_NOT_ALLOWED</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_POINTING_HAND"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_POINTING_HAND</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_RESIZE_ALL"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_RESIZE_ALL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_RESIZE_EW"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_RESIZE_EW</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_RESIZE_NESW"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_RESIZE_NESW</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_RESIZE_NS"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_RESIZE_NS</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.MouseCursor.CURSOR_RESIZE_NWSE"><code class="docutils literal notranslate"><span class="pre">MouseCursor.CURSOR_RESIZE_NWSE</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Music"><code class="docutils literal notranslate"><span class="pre">Music</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.close"><code class="docutils literal notranslate"><span class="pre">Music.close()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.ctxData"><code class="docutils literal notranslate"><span class="pre">Music.ctxData</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.ctxType"><code class="docutils literal notranslate"><span class="pre">Music.ctxType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.is_playing"><code class="docutils literal notranslate"><span class="pre">Music.is_playing()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.length"><code class="docutils literal notranslate"><span class="pre">Music.length</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.load_music"><code class="docutils literal notranslate"><span class="pre">Music.load_music()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.looping"><code class="docutils literal notranslate"><span class="pre">Music.looping</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.pause"><code class="docutils literal notranslate"><span class="pre">Music.pause()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.play"><code class="docutils literal notranslate"><span class="pre">Music.play()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.reset"><code class="docutils literal notranslate"><span class="pre">Music.reset()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.resume"><code class="docutils literal notranslate"><span class="pre">Music.resume()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.sampleCount"><code class="docutils literal notranslate"><span class="pre">Music.sampleCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.set_pitch"><code class="docutils literal notranslate"><span class="pre">Music.set_pitch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.set_volume"><code class="docutils literal notranslate"><span class="pre">Music.set_volume()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.stop"><code class="docutils literal notranslate"><span class="pre">Music.stop()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.stream"><code class="docutils literal notranslate"><span class="pre">Music.stream</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.time_played"><code class="docutils literal notranslate"><span class="pre">Music.time_played</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.unload"><code class="docutils literal notranslate"><span class="pre">Music.unload()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Music.update"><code class="docutils literal notranslate"><span class="pre">Music.update()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.NPatchInfo"><code class="docutils literal notranslate"><span class="pre">NPatchInfo</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.NPatchLayout"><code class="docutils literal notranslate"><span class="pre">NPatchLayout</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.NPatchLayout.NINE_PATCH"><code class="docutils literal notranslate"><span class="pre">NPatchLayout.NINE_PATCH</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.NPatchLayout.THREE_PATCH_HORIZONTAL"><code class="docutils literal notranslate"><span class="pre">NPatchLayout.THREE_PATCH_HORIZONTAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.NPatchLayout.THREE_PATCH_VERTICAL"><code class="docutils literal notranslate"><span class="pre">NPatchLayout.THREE_PATCH_VERTICAL</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.PixelFormat"><code class="docutils literal notranslate"><span class="pre">PixelFormat</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_ASTC_4x4_RGBA"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_ASTC_4x4_RGBA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_ASTC_8x8_RGBA"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_ASTC_8x8_RGBA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_DXT1_RGB"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_DXT1_RGB</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_DXT1_RGBA"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_DXT1_RGBA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_DXT3_RGBA"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_DXT3_RGBA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_DXT5_RGBA"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_DXT5_RGBA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_ETC1_RGB"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_ETC1_RGB</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_ETC2_EAC_RGBA"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_ETC2_EAC_RGBA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_ETC2_RGB"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_ETC2_RGB</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_PVRT_RGB"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_PVRT_RGB</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.COMPRESSED_PVRT_RGBA"><code class="docutils literal notranslate"><span class="pre">PixelFormat.COMPRESSED_PVRT_RGBA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_GRAYSCALE"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_GRAYSCALE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_GRAY_ALPHA"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_GRAY_ALPHA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_R32"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_R32</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_R32G32B32"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_R32G32B32</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_R32G32B32A32"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_R32G32B32A32</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_R4G4B4A4"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_R4G4B4A4</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_R5G5B5A1"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_R5G5B5A1</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_R5G6B5"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_R5G6B5</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_R8G8B8"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_R8G8B8</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.PixelFormat.UNCOMPRESSED_R8G8B8A8"><code class="docutils literal notranslate"><span class="pre">PixelFormat.UNCOMPRESSED_R8G8B8A8</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Quaternion"><code class="docutils literal notranslate"><span class="pre">Quaternion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Ray"><code class="docutils literal notranslate"><span class="pre">Ray</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Ray.check_collision_box"><code class="docutils literal notranslate"><span class="pre">Ray.check_collision_box()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Ray.check_collision_sphere"><code class="docutils literal notranslate"><span class="pre">Ray.check_collision_sphere()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Ray.draw"><code class="docutils literal notranslate"><span class="pre">Ray.draw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Ray.get_collision_ground"><code class="docutils literal notranslate"><span class="pre">Ray.get_collision_ground()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Ray.get_collision_mesh"><code class="docutils literal notranslate"><span class="pre">Ray.get_collision_mesh()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Ray.get_collision_model"><code class="docutils literal notranslate"><span class="pre">Ray.get_collision_model()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Ray.get_collision_triangle"><code class="docutils literal notranslate"><span class="pre">Ray.get_collision_triangle()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.RayHitInfo"><code class="docutils literal notranslate"><span class="pre">RayHitInfo</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RayHitInfo.distance"><code class="docutils literal notranslate"><span class="pre">RayHitInfo.distance</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RayHitInfo.hit"><code class="docutils literal notranslate"><span class="pre">RayHitInfo.hit</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RayHitInfo.normal"><code class="docutils literal notranslate"><span class="pre">RayHitInfo.normal</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RayHitInfo.position"><code class="docutils literal notranslate"><span class="pre">RayHitInfo.position</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Rectangle"><code class="docutils literal notranslate"><span class="pre">Rectangle</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.bottom"><code class="docutils literal notranslate"><span class="pre">Rectangle.bottom</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.collide_with"><code class="docutils literal notranslate"><span class="pre">Rectangle.collide_with()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.draw"><code class="docutils literal notranslate"><span class="pre">Rectangle.draw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.draw_gradiend_ex"><code class="docutils literal notranslate"><span class="pre">Rectangle.draw_gradiend_ex()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.draw_gradient"><code class="docutils literal notranslate"><span class="pre">Rectangle.draw_gradient()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.draw_rounded"><code class="docutils literal notranslate"><span class="pre">Rectangle.draw_rounded()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.get_collision_rect"><code class="docutils literal notranslate"><span class="pre">Rectangle.get_collision_rect()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.height"><code class="docutils literal notranslate"><span class="pre">Rectangle.height</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.left"><code class="docutils literal notranslate"><span class="pre">Rectangle.left</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.move"><code class="docutils literal notranslate"><span class="pre">Rectangle.move</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.position"><code class="docutils literal notranslate"><span class="pre">Rectangle.position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.right"><code class="docutils literal notranslate"><span class="pre">Rectangle.right</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.size"><code class="docutils literal notranslate"><span class="pre">Rectangle.size</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.to_vector4"><code class="docutils literal notranslate"><span class="pre">Rectangle.to_vector4()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.top"><code class="docutils literal notranslate"><span class="pre">Rectangle.top</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.width"><code class="docutils literal notranslate"><span class="pre">Rectangle.width</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.x"><code class="docutils literal notranslate"><span class="pre">Rectangle.x</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Rectangle.y"><code class="docutils literal notranslate"><span class="pre">Rectangle.y</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.RectanglePtr"><code class="docutils literal notranslate"><span class="pre">RectanglePtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.RenderTexture"><code class="docutils literal notranslate"><span class="pre">RenderTexture</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RenderTexture.begin_mode"><code class="docutils literal notranslate"><span class="pre">RenderTexture.begin_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RenderTexture.depth"><code class="docutils literal notranslate"><span class="pre">RenderTexture.depth</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RenderTexture.end_mode"><code class="docutils literal notranslate"><span class="pre">RenderTexture.end_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RenderTexture.id"><code class="docutils literal notranslate"><span class="pre">RenderTexture.id</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RenderTexture.load"><code class="docutils literal notranslate"><span class="pre">RenderTexture.load()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RenderTexture.texture"><code class="docutils literal notranslate"><span class="pre">RenderTexture.texture</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.RenderTexture.unload"><code class="docutils literal notranslate"><span class="pre">RenderTexture.unload()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.RenderTexture2D"><code class="docutils literal notranslate"><span class="pre">RenderTexture2D</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Shader"><code class="docutils literal notranslate"><span class="pre">Shader</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.begin_mode"><code class="docutils literal notranslate"><span class="pre">Shader.begin_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.end_mode"><code class="docutils literal notranslate"><span class="pre">Shader.end_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.get_location"><code class="docutils literal notranslate"><span class="pre">Shader.get_location()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.id"><code class="docutils literal notranslate"><span class="pre">Shader.id</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.load_from_memory"><code class="docutils literal notranslate"><span class="pre">Shader.load_from_memory()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.load_shader"><code class="docutils literal notranslate"><span class="pre">Shader.load_shader()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.locs"><code class="docutils literal notranslate"><span class="pre">Shader.locs</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.set_value"><code class="docutils literal notranslate"><span class="pre">Shader.set_value()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Shader.unload"><code class="docutils literal notranslate"><span class="pre">Shader.unload()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.COLOR_AMBIENT"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.COLOR_AMBIENT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.COLOR_DIFFUSE"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.COLOR_DIFFUSE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.COLOR_SPECULAR"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.COLOR_SPECULAR</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_ALBEDO"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_ALBEDO</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_BRDF"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_BRDF</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_CUBEMAP"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_CUBEMAP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_EMISSION"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_EMISSION</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_HEIGHT"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_HEIGHT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_IRRADIANCE"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_IRRADIANCE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_METALNESS"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_METALNESS</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_NORMAL"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_NORMAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_OCCLUSION"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_OCCLUSION</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_PREFILTER"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_PREFILTER</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MAP_ROUGHNESS"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MAP_ROUGHNESS</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MATRIX_MODEL"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MATRIX_MODEL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MATRIX_MVP"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MATRIX_MVP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MATRIX_NORMAL"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MATRIX_NORMAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MATRIX_PROJECTION"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MATRIX_PROJECTION</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.MATRIX_VIEW"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.MATRIX_VIEW</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.VECTOR_VIEW"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.VECTOR_VIEW</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.VERTEX_COLOR"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.VERTEX_COLOR</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.VERTEX_NORMAL"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.VERTEX_NORMAL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.VERTEX_POSITION"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.VERTEX_POSITION</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.VERTEX_TANGENT"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.VERTEX_TANGENT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.VERTEX_TEXCOORD01"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.VERTEX_TEXCOORD01</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderLocationIndex.VERTEX_TEXCOORD02"><code class="docutils literal notranslate"><span class="pre">ShaderLocationIndex.VERTEX_TEXCOORD02</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.FLOAT"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.FLOAT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.INT"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.INT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.IVEC2"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.IVEC2</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.IVEC3"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.IVEC3</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.IVEC4"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.IVEC4</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.SAMPLER2D"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.SAMPLER2D</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.VEC2"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.VEC2</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.VEC3"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.VEC3</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.ShaderUniformDataType.VEC4"><code class="docutils literal notranslate"><span class="pre">ShaderUniformDataType.VEC4</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Singleton"><code class="docutils literal notranslate"><span class="pre">Singleton</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Sound"><code class="docutils literal notranslate"><span class="pre">Sound</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.from_file"><code class="docutils literal notranslate"><span class="pre">Sound.from_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.from_wave"><code class="docutils literal notranslate"><span class="pre">Sound.from_wave()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.is_playing"><code class="docutils literal notranslate"><span class="pre">Sound.is_playing()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.pause"><code class="docutils literal notranslate"><span class="pre">Sound.pause()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.play"><code class="docutils literal notranslate"><span class="pre">Sound.play()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.play_multi"><code class="docutils literal notranslate"><span class="pre">Sound.play_multi()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.resume"><code class="docutils literal notranslate"><span class="pre">Sound.resume()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.sampleCount"><code class="docutils literal notranslate"><span class="pre">Sound.sampleCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.set_pitch"><code class="docutils literal notranslate"><span class="pre">Sound.set_pitch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.set_volume"><code class="docutils literal notranslate"><span class="pre">Sound.set_volume()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.stop"><code class="docutils literal notranslate"><span class="pre">Sound.stop()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.stop_multi"><code class="docutils literal notranslate"><span class="pre">Sound.stop_multi()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.stream"><code class="docutils literal notranslate"><span class="pre">Sound.stream</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Sound.unload"><code class="docutils literal notranslate"><span class="pre">Sound.unload()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Text"><code class="docutils literal notranslate"><span class="pre">Text</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Text.color"><code class="docutils literal notranslate"><span class="pre">Text.color</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Text.height"><code class="docutils literal notranslate"><span class="pre">Text.height</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Text.render"><code class="docutils literal notranslate"><span class="pre">Text.render()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Text.render_in_rec"><code class="docutils literal notranslate"><span class="pre">Text.render_in_rec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Text.size"><code class="docutils literal notranslate"><span class="pre">Text.size</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Text.text"><code class="docutils literal notranslate"><span class="pre">Text.text</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Text.width"><code class="docutils literal notranslate"><span class="pre">Text.width</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Texture"><code class="docutils literal notranslate"><span class="pre">Texture</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.draw"><code class="docutils literal notranslate"><span class="pre">Texture.draw()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.draw_quad"><code class="docutils literal notranslate"><span class="pre">Texture.draw_quad()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.draw_rec"><code class="docutils literal notranslate"><span class="pre">Texture.draw_rec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.from_file"><code class="docutils literal notranslate"><span class="pre">Texture.from_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.from_image"><code class="docutils literal notranslate"><span class="pre">Texture.from_image()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.gen_texture_mipmaps"><code class="docutils literal notranslate"><span class="pre">Texture.gen_texture_mipmaps()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.get_image"><code class="docutils literal notranslate"><span class="pre">Texture.get_image()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.height"><code class="docutils literal notranslate"><span class="pre">Texture.height</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.set_filter"><code class="docutils literal notranslate"><span class="pre">Texture.set_filter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.set_wrap"><code class="docutils literal notranslate"><span class="pre">Texture.set_wrap()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.size"><code class="docutils literal notranslate"><span class="pre">Texture.size</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.texture_cubemap"><code class="docutils literal notranslate"><span class="pre">Texture.texture_cubemap()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.unload"><code class="docutils literal notranslate"><span class="pre">Texture.unload()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.update"><code class="docutils literal notranslate"><span class="pre">Texture.update()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Texture.width"><code class="docutils literal notranslate"><span class="pre">Texture.width</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Texture2D"><code class="docutils literal notranslate"><span class="pre">Texture2D</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.TextureCubemap"><code class="docutils literal notranslate"><span class="pre">TextureCubemap</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.TextureFilter"><code class="docutils literal notranslate"><span class="pre">TextureFilter</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureFilter.ANISOTROPIC_16X"><code class="docutils literal notranslate"><span class="pre">TextureFilter.ANISOTROPIC_16X</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureFilter.ANISOTROPIC_4X"><code class="docutils literal notranslate"><span class="pre">TextureFilter.ANISOTROPIC_4X</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureFilter.ANISOTROPIC_8X"><code class="docutils literal notranslate"><span class="pre">TextureFilter.ANISOTROPIC_8X</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureFilter.BILINEAR"><code class="docutils literal notranslate"><span class="pre">TextureFilter.BILINEAR</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureFilter.POINT"><code class="docutils literal notranslate"><span class="pre">TextureFilter.POINT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureFilter.TRILINEAR"><code class="docutils literal notranslate"><span class="pre">TextureFilter.TRILINEAR</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.TextureWrap"><code class="docutils literal notranslate"><span class="pre">TextureWrap</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureWrap.CLAMP"><code class="docutils literal notranslate"><span class="pre">TextureWrap.CLAMP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureWrap.MIRROR_CLAMP"><code class="docutils literal notranslate"><span class="pre">TextureWrap.MIRROR_CLAMP</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureWrap.MIRROR_REPEAT"><code class="docutils literal notranslate"><span class="pre">TextureWrap.MIRROR_REPEAT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.TextureWrap.REPEAT"><code class="docutils literal notranslate"><span class="pre">TextureWrap.REPEAT</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Transform"><code class="docutils literal notranslate"><span class="pre">Transform</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Transform.rotation"><code class="docutils literal notranslate"><span class="pre">Transform.rotation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Transform.scale"><code class="docutils literal notranslate"><span class="pre">Transform.scale</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Transform.translation"><code class="docutils literal notranslate"><span class="pre">Transform.translation</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.TransformPtr"><code class="docutils literal notranslate"><span class="pre">TransformPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.TransformPtrPtr"><code class="docutils literal notranslate"><span class="pre">TransformPtrPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.UCharPtr"><code class="docutils literal notranslate"><span class="pre">UCharPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.UIntPtr"><code class="docutils literal notranslate"><span class="pre">UIntPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.UShortPtr"><code class="docutils literal notranslate"><span class="pre">UShortPtr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Vector2"><code class="docutils literal notranslate"><span class="pre">Vector2</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector2.angle"><code class="docutils literal notranslate"><span class="pre">Vector2.angle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector2.distance"><code class="docutils literal notranslate"><span class="pre">Vector2.distance()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector2.dot_product"><code class="docutils literal notranslate"><span class="pre">Vector2.dot_product()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector2.one"><code class="docutils literal notranslate"><span class="pre">Vector2.one()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector2.rotate"><code class="docutils literal notranslate"><span class="pre">Vector2.rotate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector2.x"><code class="docutils literal notranslate"><span class="pre">Vector2.x</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector2.y"><code class="docutils literal notranslate"><span class="pre">Vector2.y</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector2.zero"><code class="docutils literal notranslate"><span class="pre">Vector2.zero()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Vector2Ptr"><code class="docutils literal notranslate"><span class="pre">Vector2Ptr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Vector3"><code class="docutils literal notranslate"><span class="pre">Vector3</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector3.cross_product"><code class="docutils literal notranslate"><span class="pre">Vector3.cross_product()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector3.dot_product"><code class="docutils literal notranslate"><span class="pre">Vector3.dot_product()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector3.one"><code class="docutils literal notranslate"><span class="pre">Vector3.one()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector3.x"><code class="docutils literal notranslate"><span class="pre">Vector3.x</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector3.y"><code class="docutils literal notranslate"><span class="pre">Vector3.y</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector3.z"><code class="docutils literal notranslate"><span class="pre">Vector3.z</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector3.zero"><code class="docutils literal notranslate"><span class="pre">Vector3.zero()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Vector3Ptr"><code class="docutils literal notranslate"><span class="pre">Vector3Ptr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Vector4"><code class="docutils literal notranslate"><span class="pre">Vector4</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.from_axis_angle"><code class="docutils literal notranslate"><span class="pre">Vector4.from_axis_angle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.from_matrix"><code class="docutils literal notranslate"><span class="pre">Vector4.from_matrix()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.from_vec3_to_vec3"><code class="docutils literal notranslate"><span class="pre">Vector4.from_vec3_to_vec3()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.identity"><code class="docutils literal notranslate"><span class="pre">Vector4.identity()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.invert"><code class="docutils literal notranslate"><span class="pre">Vector4.invert()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.lerp"><code class="docutils literal notranslate"><span class="pre">Vector4.lerp()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.nlerp"><code class="docutils literal notranslate"><span class="pre">Vector4.nlerp()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.normalize"><code class="docutils literal notranslate"><span class="pre">Vector4.normalize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.slerp"><code class="docutils literal notranslate"><span class="pre">Vector4.slerp()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.to_matrix"><code class="docutils literal notranslate"><span class="pre">Vector4.to_matrix()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.to_rectangle"><code class="docutils literal notranslate"><span class="pre">Vector4.to_rectangle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.transform"><code class="docutils literal notranslate"><span class="pre">Vector4.transform()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.w"><code class="docutils literal notranslate"><span class="pre">Vector4.w</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.x"><code class="docutils literal notranslate"><span class="pre">Vector4.x</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.y"><code class="docutils literal notranslate"><span class="pre">Vector4.y</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Vector4.z"><code class="docutils literal notranslate"><span class="pre">Vector4.z</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Vector4Ptr"><code class="docutils literal notranslate"><span class="pre">Vector4Ptr</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Wave"><code class="docutils literal notranslate"><span class="pre">Wave</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.channels"><code class="docutils literal notranslate"><span class="pre">Wave.channels</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.copy"><code class="docutils literal notranslate"><span class="pre">Wave.copy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.data"><code class="docutils literal notranslate"><span class="pre">Wave.data</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.export"><code class="docutils literal notranslate"><span class="pre">Wave.export()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.export_as_code"><code class="docutils literal notranslate"><span class="pre">Wave.export_as_code()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.format"><code class="docutils literal notranslate"><span class="pre">Wave.format()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.from_file"><code class="docutils literal notranslate"><span class="pre">Wave.from_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.sampleCount"><code class="docutils literal notranslate"><span class="pre">Wave.sampleCount</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.sampleRate"><code class="docutils literal notranslate"><span class="pre">Wave.sampleRate</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.sampleSize"><code class="docutils literal notranslate"><span class="pre">Wave.sampleSize</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Wave.unload"><code class="docutils literal notranslate"><span class="pre">Wave.unload()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.Window"><code class="docutils literal notranslate"><span class="pre">Window</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.begin_drawing"><code class="docutils literal notranslate"><span class="pre">Window.begin_drawing()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.clear_background"><code class="docutils literal notranslate"><span class="pre">Window.clear_background()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.clear_state"><code class="docutils literal notranslate"><span class="pre">Window.clear_state()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.clipboard_text"><code class="docutils literal notranslate"><span class="pre">Window.clipboard_text</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.close"><code class="docutils literal notranslate"><span class="pre">Window.close()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.disable_cursor"><code class="docutils literal notranslate"><span class="pre">Window.disable_cursor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.draw_fps"><code class="docutils literal notranslate"><span class="pre">Window.draw_fps()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.enable_cursor"><code class="docutils literal notranslate"><span class="pre">Window.enable_cursor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.end_drawing"><code class="docutils literal notranslate"><span class="pre">Window.end_drawing()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.get_current_monitor"><code class="docutils literal notranslate"><span class="pre">Window.get_current_monitor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.get_dropped_files"><code class="docutils literal notranslate"><span class="pre">Window.get_dropped_files()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.get_fps"><code class="docutils literal notranslate"><span class="pre">Window.get_fps()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.get_frame_time"><code class="docutils literal notranslate"><span class="pre">Window.get_frame_time()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.get_monitor_name"><code class="docutils literal notranslate"><span class="pre">Window.get_monitor_name()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.get_position"><code class="docutils literal notranslate"><span class="pre">Window.get_position()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.get_scale_dpi"><code class="docutils literal notranslate"><span class="pre">Window.get_scale_dpi()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.get_time"><code class="docutils literal notranslate"><span class="pre">Window.get_time()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.height"><code class="docutils literal notranslate"><span class="pre">Window.height</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.hide_cursor"><code class="docutils literal notranslate"><span class="pre">Window.hide_cursor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.init_window"><code class="docutils literal notranslate"><span class="pre">Window.init_window()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_cursor_hidden"><code class="docutils literal notranslate"><span class="pre">Window.is_cursor_hidden()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_cursor_on_screen"><code class="docutils literal notranslate"><span class="pre">Window.is_cursor_on_screen()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_file_dropped"><code class="docutils literal notranslate"><span class="pre">Window.is_file_dropped()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_focused"><code class="docutils literal notranslate"><span class="pre">Window.is_focused()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_fullscreen"><code class="docutils literal notranslate"><span class="pre">Window.is_fullscreen()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_hidden"><code class="docutils literal notranslate"><span class="pre">Window.is_hidden()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_maximized"><code class="docutils literal notranslate"><span class="pre">Window.is_maximized()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_minimized"><code class="docutils literal notranslate"><span class="pre">Window.is_minimized()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_open"><code class="docutils literal notranslate"><span class="pre">Window.is_open()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_ready"><code class="docutils literal notranslate"><span class="pre">Window.is_ready()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_resized"><code class="docutils literal notranslate"><span class="pre">Window.is_resized()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.is_state"><code class="docutils literal notranslate"><span class="pre">Window.is_state()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.maximize"><code class="docutils literal notranslate"><span class="pre">Window.maximize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.minimize"><code class="docutils literal notranslate"><span class="pre">Window.minimize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.restore"><code class="docutils literal notranslate"><span class="pre">Window.restore()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.set_fps"><code class="docutils literal notranslate"><span class="pre">Window.set_fps()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.set_fullscreen"><code class="docutils literal notranslate"><span class="pre">Window.set_fullscreen()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.set_icon"><code class="docutils literal notranslate"><span class="pre">Window.set_icon()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.set_min_size"><code class="docutils literal notranslate"><span class="pre">Window.set_min_size()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.set_monitor"><code class="docutils literal notranslate"><span class="pre">Window.set_monitor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.set_position"><code class="docutils literal notranslate"><span class="pre">Window.set_position()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.set_state"><code class="docutils literal notranslate"><span class="pre">Window.set_state()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.set_title"><code class="docutils literal notranslate"><span class="pre">Window.set_title()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.should_close"><code class="docutils literal notranslate"><span class="pre">Window.should_close()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.show_cursor"><code class="docutils literal notranslate"><span class="pre">Window.show_cursor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.size"><code class="docutils literal notranslate"><span class="pre">Window.size</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.toggle_fullscreen"><code class="docutils literal notranslate"><span class="pre">Window.toggle_fullscreen()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.Window.width"><code class="docutils literal notranslate"><span class="pre">Window.width</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.WindowState"><code class="docutils literal notranslate"><span class="pre">WindowState</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.ALWAYS_RUN"><code class="docutils literal notranslate"><span class="pre">WindowState.ALWAYS_RUN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.FULLSCREEN_MODE"><code class="docutils literal notranslate"><span class="pre">WindowState.FULLSCREEN_MODE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.HIDDEN"><code class="docutils literal notranslate"><span class="pre">WindowState.HIDDEN</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.HIGHDPI"><code class="docutils literal notranslate"><span class="pre">WindowState.HIGHDPI</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.INTERLACED_HINT"><code class="docutils literal notranslate"><span class="pre">WindowState.INTERLACED_HINT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.MAXIMIZED"><code class="docutils literal notranslate"><span class="pre">WindowState.MAXIMIZED</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.MINIMIZED"><code class="docutils literal notranslate"><span class="pre">WindowState.MINIMIZED</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.MSAA_4X_HINT"><code class="docutils literal notranslate"><span class="pre">WindowState.MSAA_4X_HINT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.RESIZABLE"><code class="docutils literal notranslate"><span class="pre">WindowState.RESIZABLE</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.TOPMOST"><code class="docutils literal notranslate"><span class="pre">WindowState.TOPMOST</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.TRANSPARENT"><code class="docutils literal notranslate"><span class="pre">WindowState.TRANSPARENT</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.UNDECORATED"><code class="docutils literal notranslate"><span class="pre">WindowState.UNDECORATED</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.UNFOCUSED"><code class="docutils literal notranslate"><span class="pre">WindowState.UNFOCUSED</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#pyraylib.WindowState.VSYNC_HINT"><code class="docutils literal notranslate"><span class="pre">WindowState.VSYNC_HINT</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.allocate_memory"><code class="docutils literal notranslate"><span class="pre">allocate_memory()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.array_char_32"><code class="docutils literal notranslate"><span class="pre">array_char_32</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.array_float_4"><code class="docutils literal notranslate"><span class="pre">array_float_4</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.clear_directory_files"><code class="docutils literal notranslate"><span class="pre">clear_directory_files()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.clear_dropped_files"><code class="docutils literal notranslate"><span class="pre">clear_dropped_files()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.directory_exists"><code class="docutils literal notranslate"><span class="pre">directory_exists()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_circle_3d"><code class="docutils literal notranslate"><span class="pre">draw_circle_3d()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_cube"><code class="docutils literal notranslate"><span class="pre">draw_cube()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_cube_texture"><code class="docutils literal notranslate"><span class="pre">draw_cube_texture()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_cube_v"><code class="docutils literal notranslate"><span class="pre">draw_cube_v()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_cube_wires"><code class="docutils literal notranslate"><span class="pre">draw_cube_wires()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_cube_wires_v"><code class="docutils literal notranslate"><span class="pre">draw_cube_wires_v()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_ellipse"><code class="docutils literal notranslate"><span class="pre">draw_ellipse()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_ellipse_lines"><code class="docutils literal notranslate"><span class="pre">draw_ellipse_lines()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_grid"><code class="docutils literal notranslate"><span class="pre">draw_grid()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_line"><code class="docutils literal notranslate"><span class="pre">draw_line()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_line_3d"><code class="docutils literal notranslate"><span class="pre">draw_line_3d()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_line_bezier"><code class="docutils literal notranslate"><span class="pre">draw_line_bezier()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_line_bezier_quad"><code class="docutils literal notranslate"><span class="pre">draw_line_bezier_quad()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_pixel"><code class="docutils literal notranslate"><span class="pre">draw_pixel()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_plane"><code class="docutils literal notranslate"><span class="pre">draw_plane()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_point_3d"><code class="docutils literal notranslate"><span class="pre">draw_point_3d()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_poly"><code class="docutils literal notranslate"><span class="pre">draw_poly()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_poly_lines"><code class="docutils literal notranslate"><span class="pre">draw_poly_lines()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_rectangle"><code class="docutils literal notranslate"><span class="pre">draw_rectangle()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_rectangle_v"><code class="docutils literal notranslate"><span class="pre">draw_rectangle_v()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_ring"><code class="docutils literal notranslate"><span class="pre">draw_ring()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_ring_lines"><code class="docutils literal notranslate"><span class="pre">draw_ring_lines()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_sphere"><code class="docutils literal notranslate"><span class="pre">draw_sphere()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_sphere_ex"><code class="docutils literal notranslate"><span class="pre">draw_sphere_ex()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_text"><code class="docutils literal notranslate"><span class="pre">draw_text()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_text_ex"><code class="docutils literal notranslate"><span class="pre">draw_text_ex()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_triangle"><code class="docutils literal notranslate"><span class="pre">draw_triangle()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_triangle_3d"><code class="docutils literal notranslate"><span class="pre">draw_triangle_3d()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.draw_triangle_lines"><code class="docutils literal notranslate"><span class="pre">draw_triangle_lines()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.file_exists"><code class="docutils literal notranslate"><span class="pre">file_exists()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.free_memory"><code class="docutils literal notranslate"><span class="pre">free_memory()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_char_pressed"><code class="docutils literal notranslate"><span class="pre">get_char_pressed()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_directory_files"><code class="docutils literal notranslate"><span class="pre">get_directory_files()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_dropped_files"><code class="docutils literal notranslate"><span class="pre">get_dropped_files()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_extension"><code class="docutils literal notranslate"><span class="pre">get_extension()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_file_name"><code class="docutils literal notranslate"><span class="pre">get_file_name()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gamepad_axis_count"><code class="docutils literal notranslate"><span class="pre">get_gamepad_axis_count()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gamepad_axis_movement"><code class="docutils literal notranslate"><span class="pre">get_gamepad_axis_movement()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gamepad_button_pressed"><code class="docutils literal notranslate"><span class="pre">get_gamepad_button_pressed()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gamepad_name"><code class="docutils literal notranslate"><span class="pre">get_gamepad_name()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gesture_detected"><code class="docutils literal notranslate"><span class="pre">get_gesture_detected()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gesture_drag_angle"><code class="docutils literal notranslate"><span class="pre">get_gesture_drag_angle()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gesture_drag_vector"><code class="docutils literal notranslate"><span class="pre">get_gesture_drag_vector()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gesture_hold_duration"><code class="docutils literal notranslate"><span class="pre">get_gesture_hold_duration()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gesture_pinch_angle"><code class="docutils literal notranslate"><span class="pre">get_gesture_pinch_angle()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_gesture_pinch_vector"><code class="docutils literal notranslate"><span class="pre">get_gesture_pinch_vector()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_key_pressed"><code class="docutils literal notranslate"><span class="pre">get_key_pressed()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_mouse_position"><code class="docutils literal notranslate"><span class="pre">get_mouse_position()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_mouse_wheel_move"><code class="docutils literal notranslate"><span class="pre">get_mouse_wheel_move()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_mouse_x"><code class="docutils literal notranslate"><span class="pre">get_mouse_x()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_mouse_y"><code class="docutils literal notranslate"><span class="pre">get_mouse_y()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_random_color"><code class="docutils literal notranslate"><span class="pre">get_random_color()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_random_value"><code class="docutils literal notranslate"><span class="pre">get_random_value()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_touch_points_count"><code class="docutils literal notranslate"><span class="pre">get_touch_points_count()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_touch_position"><code class="docutils literal notranslate"><span class="pre">get_touch_position()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_touch_x"><code class="docutils literal notranslate"><span class="pre">get_touch_x()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.get_touch_y"><code class="docutils literal notranslate"><span class="pre">get_touch_y()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_file_dropped"><code class="docutils literal notranslate"><span class="pre">is_file_dropped()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_file_extension"><code class="docutils literal notranslate"><span class="pre">is_file_extension()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_gamepad_available"><code class="docutils literal notranslate"><span class="pre">is_gamepad_available()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_gamepad_button_down"><code class="docutils literal notranslate"><span class="pre">is_gamepad_button_down()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_gamepad_button_pressed"><code class="docutils literal notranslate"><span class="pre">is_gamepad_button_pressed()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_gamepad_button_released"><code class="docutils literal notranslate"><span class="pre">is_gamepad_button_released()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_gamepad_button_up"><code class="docutils literal notranslate"><span class="pre">is_gamepad_button_up()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_gamepad_name"><code class="docutils literal notranslate"><span class="pre">is_gamepad_name()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_gesture_detected"><code class="docutils literal notranslate"><span class="pre">is_gesture_detected()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_key_down"><code class="docutils literal notranslate"><span class="pre">is_key_down()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_key_pressed"><code class="docutils literal notranslate"><span class="pre">is_key_pressed()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_key_released"><code class="docutils literal notranslate"><span class="pre">is_key_released()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_key_up"><code class="docutils literal notranslate"><span class="pre">is_key_up()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_mouse_button_down"><code class="docutils literal notranslate"><span class="pre">is_mouse_button_down()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_mouse_button_pressed"><code class="docutils literal notranslate"><span class="pre">is_mouse_button_pressed()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_mouse_button_released"><code class="docutils literal notranslate"><span class="pre">is_mouse_button_released()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.is_mouse_button_up"><code class="docutils literal notranslate"><span class="pre">is_mouse_button_up()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.load_file_data"><code class="docutils literal notranslate"><span class="pre">load_file_data()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.load_file_text"><code class="docutils literal notranslate"><span class="pre">load_file_text()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.load_storage_value"><code class="docutils literal notranslate"><span class="pre">load_storage_value()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.measure_text"><code class="docutils literal notranslate"><span class="pre">measure_text()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.measure_text_ex"><code class="docutils literal notranslate"><span class="pre">measure_text_ex()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.open_url"><code class="docutils literal notranslate"><span class="pre">open_url()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.python_wrapper"><code class="docutils literal notranslate"><span class="pre">python_wrapper()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.re_allocate_memory"><code class="docutils literal notranslate"><span class="pre">re_allocate_memory()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.save_file_text"><code class="docutils literal notranslate"><span class="pre">save_file_text()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.save_storage_value"><code class="docutils literal notranslate"><span class="pre">save_storage_value()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.set_exit_key"><code class="docutils literal notranslate"><span class="pre">set_exit_key()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.set_gamepad_mappings"><code class="docutils literal notranslate"><span class="pre">set_gamepad_mappings()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.set_gestures_enabled"><code class="docutils literal notranslate"><span class="pre">set_gestures_enabled()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.set_mouse_cursor"><code class="docutils literal notranslate"><span class="pre">set_mouse_cursor()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.set_mouse_offset"><code class="docutils literal notranslate"><span class="pre">set_mouse_offset()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.set_mouse_position"><code class="docutils literal notranslate"><span class="pre">set_mouse_position()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.set_mouse_scale"><code class="docutils literal notranslate"><span class="pre">set_mouse_scale()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.take_screenshot"><code class="docutils literal notranslate"><span class="pre">take_screenshot()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.text_is_equal"><code class="docutils literal notranslate"><span class="pre">text_is_equal()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.unload_file_data"><code class="docutils literal notranslate"><span class="pre">unload_file_data()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#pyraylib.wrap_function"><code class="docutils literal notranslate"><span class="pre">wrap_function()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="quickstart.html" class="btn btn-neutral float-right" title="Getting Started" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
